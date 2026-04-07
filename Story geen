@@ -6,3 +6,4 @@ feeling = input("how are u feeling gng:")
 story = f"One day, {name} was {feeling} and decided to go to {place}. While there, he started {action} a tree. People around him were surprised by his behavior at {place}.    "
 
 print(story)
+()
