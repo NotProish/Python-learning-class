@@ -1,0 +1,21 @@
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+operation = input("Enter operation (m for multiplication, d for division, a for addition, s for subtraction): ").lower()
+
+if operation == 'm':
+    result = num1 * num2
+    print(f"The result of multiplication is: {result}")
+elif operation == 'd':
+    if num2 != 0:
+        result = num1 / num2
+        print(f"The result of division is: {result}")
+    else:
+        print("Error: Division by zero!")
+elif operation == 'a':
+    result = num1 + num2
+    print(f"The result of addition is: {result}")
+elif operation == 's':
+    result = num1 - num2
+    print(f"The result of subtraction is: {result}")
+else:
+    print("Invalid operation. Please enter m, d, a, or s.")
