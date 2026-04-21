@@ -1,0 +1,23 @@
+
+lovely_loveseat_price = 254
+luxurious_lamp_price = 52.15
+
+
+sales_tax = 0.088
+
+total = 0
+
+
+total += lovely_loveseat_price
+total += luxurious_lamp_price
+
+
+tax = total * sales_tax
+
+
+final = total + tax
+
+
+print("Total:", total)
+print("Tax:", round(tax, 2))
+print("Final:", round(final, 2))
