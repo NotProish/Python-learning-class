@@ -1,0 +1,16 @@
+import random
+
+num = random.randint(1, 8)
+lucky = random.randint(1, 100)
+
+if num == 1:
+    msg = "You will have a great day."
+elif num == 2:
+    msg = "Success is in your future."
+elif num == 3:
+    msg = "A surprise is coming."
+else:
+    msg = "Keep moving forward."
+
+print(f'"{msg}"')
+print(f"Lucky Number: {lucky}")
