@@ -1,0 +1,10 @@
+import time
+
+timer = 10 
+
+while timer > 0:
+    print(f"T-minus {timer}...")
+    time.sleep(1)
+    timer -= 1
+
+print("Liftoff!")
