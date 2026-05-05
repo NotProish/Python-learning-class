@@ -1,0 +1,12 @@
+
+with open("test.txt", "a") as file:
+    file.write("Omar:B-\n")
+    file.write("SheenazA+\n")
+    file.write("Sara:F-\n")
+    file.write("aya:B\n")
+    file.write("maryam:C\n")
+
+print ("---Getting you data buddy---")
+with open("test.txt", "r") as file:
+    for line in file:
+        print(line.strip())

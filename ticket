@@ -1,0 +1,10 @@
+from datetime import datetime
+
+def create_ticket(user_name, issue_description):
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    with open("complaint_log.txt", "a") as file:
+        file.write(f"---New Complaints from whiny students---\n")
+        file.write(f"User: {user_name}\n")
+        file.write(f"Issue: {issue_description}\n")
+        file.write(f"Timestamp: {timestamp}\n")
+        file.write("---\n")

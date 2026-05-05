@@ -1,0 +1,7 @@
+open("test.txt", "a")
+file.write("Omar:P\n
+file.write("SheenazA++\n")
+file.write("Sara:P\n")
+file.write("aya:P\n")
+file.write("maryam:P\n")
+
