@@ -1,4 +1,2 @@
-# Python-learning-class
-Python stuff
-educational python course for Omar Khan by Ms Sheenaz the first project dont was hello.py and it was about 
-how to do the hello world stuff which is print("x") 
+As part of my extracurricular for Python, I am developing my programming proficiency through a structured Python course instructed by Ms. Sheenaz. 
+This course is designed to build a strong foundation in computational thinking and practical coding skills.
