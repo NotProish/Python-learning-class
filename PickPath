@@ -1,0 +1,20 @@
+define Ms.Sheenaz_class():
+print("\--- The Ms.Sheenaz Class---")
+print("\You are in coding class what do you want to do?")
+choice = input(" Do you [1] Yell for no reason [2] sit quitely and make no noise. [3] Tell the students to be quiet [4] explore the hallway")
+
+if choice == "1":
+print("Ms. Sheenaz is disappointed!")
+return "Ms.Sheenaz class"
+
+elif choice == "2":
+print("Ms. Sheenaz is happy with your behavior!")
+return "Ms.Sheenaz class"   
+
+elif choice == "3":
+print("Ms. Sheenaz is happy with your behavior!")
+return "Ms.Sheenaz class"
+
+elif choice == "4":
+print("Ms. Sheenaz is disappointed!")
+return "Ms.Sheenaz class"

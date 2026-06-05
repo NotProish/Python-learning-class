@@ -10,7 +10,7 @@ elif operation == 'd':
         result = num1 / num2
         print(f"The result of division is: {result}")
     else:
-        print("Error: Division by zero!")
+        print("Error: Division by zero!") nhy6
 elif operation == 'a':
     result = num1 + num2
     print(f"The result of addition is: {result}")
